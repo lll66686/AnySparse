@@ -2,6 +2,11 @@
 
 A streamlined, directly compilable port of **clSPARSE** with a focus on simplicity and broad OpenCL device support.
 
+Developing support：
+2026.5.20:
+0-indexing for MMGenerateCOOFromFile/clsparseSCsrMatrixfromFile.
+Dense B and C with different row/column major in clsparseScsrmm.
+
 ## Overview
 
 This project, maintained by **Prof. Jinchuan Tang** ([jctang@gzu.edu.cn](mailto:jctang@gzu.edu.cn)), is a derivative of the original clSPARSE library. Its primary goal is to eliminate the complexities of the original build system, offering a straightforward "clone and compile" experience.
