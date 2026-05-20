@@ -3,8 +3,11 @@
 A streamlined, directly compilable port of **clSPARSE** with a focus on simplicity and broad OpenCL device support.
 
 Developing support：
+
 2026.5.20:
+
 0-indexing for MMGenerateCOOFromFile/clsparseSCsrMatrixfromFile.
+
 Dense B and C with different row/column major in clsparseScsrmm.
 
 ## Overview
